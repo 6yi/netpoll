@@ -26,6 +26,9 @@ goroutine，大幅增加调度开销。此外，[net.Conn][net.Conn] 没有提�
 
 更多信息请参阅 [文档](#文档)。
 
+* **不被支持**
+    - Windows（操作系统）
+    
 # 特性
 
 * **已经支持**
@@ -46,8 +49,7 @@ goroutine，大幅增加调度开销。此外，[net.Conn][net.Conn] 没有提�
     - 支持 TLS
     - 支持 UDP
 
-* **不被支持**
-    - Windows（操作系统）
+
 
 # 性能
 
