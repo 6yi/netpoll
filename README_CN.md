@@ -31,7 +31,7 @@ goroutine，大幅增加调度开销。此外，[net.Conn][net.Conn] 没有提�
 # 特性
 * **不被支持**
     - Windows（操作系统）
-    - 
+    
 * **已经支持**
     - [LinkBuffer][LinkBuffer] 提供可以流式读写的 nocopy API
     - [gopool][gopool] 提供高性能的 goroutine 池
